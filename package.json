@@ -1,0 +1,18 @@
+{
+    "name":"docker-ci",
+    "private": true,
+    "version": "1.0.0",
+    "description": "my test CI project",
+    "main":"app.js",
+    "scripts": {
+        "test": "node_modules/.bin/mocha --report spec test",
+        "start": "node app.js"
+    }
+    "author": "Nune Isabekyan",
+    "dependencies": {
+        "express": "3.2.4",
+        "jode": "1.11.0",
+        "mocha": "1.20.1",
+        "supertest": "1.1.0"
+    }
+}
